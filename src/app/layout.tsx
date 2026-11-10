@@ -20,6 +20,10 @@ const figtree = Figtree({
 export const metadata: Metadata = {
   title: 'Clicou Comprou | Os melhores BUGS da internet direto no seu WhatsApp',
   description: 'Preço que escapa, cupom que vaza e promoção que some rápido. A gente acha, você só clica e compra.',
+  icons: {
+    icon: '/icon.png',
+    apple: '/icon.png',
+  },
   robots: {
     index: true,
     follow: true,
